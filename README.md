@@ -1,6 +1,6 @@
 # 灵枢 IMA 智能下载器 V3.0
 
-> 腾讯 IMA 知识库搜索、浏览与批量下载工具 | Java Swing 桌面应用
+> IMA 知识库搜索、浏览与批量下载工具 | Java Swing 桌面应用
 
 <p align="center">
   <img src="灵枢ima智能下载器v3.0-源文件/icon/灵枢IMA下载器_Logo_HD.png" width="200" alt="Logo">
