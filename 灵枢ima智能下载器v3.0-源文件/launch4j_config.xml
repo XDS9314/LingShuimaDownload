@@ -1,0 +1,52 @@
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>LingShuIMA.jar</jar>
+  <outfile>灵枢IMA智能下载器.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>https://www.oracle.com/java/technologies/downloads/</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>icon/icon_256.ico</icon>
+  <classPath>
+    <mainClass>com.lingshu.ima.UnifiedMain</mainClass>
+  </classPath>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.8.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+    <initialHeapSize>128</initialHeapSize>
+    <maxHeapSize>512</maxHeapSize>
+    <opt>-Dfile.encoding=UTF-8</opt>
+  </jre>
+  <versionInfo>
+    <fileVersion>3.0.0.0</fileVersion>
+    <txtFileVersion>3.0</txtFileVersion>
+    <fileDescription>LingShu IMA Downloader V3.0</fileDescription>
+    <copyright>LingShu</copyright>
+    <productVersion>3.0.0.0</productVersion>
+    <txtProductVersion>3.0</txtProductVersion>
+    <productName>LingShuIMA</productName>
+    <companyName>LingShu</companyName>
+    <internalName>LingShuIMA</internalName>
+    <originalFilename>LingShuIMA.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+  <messages>
+    <startupErr>An error occurred while starting the application.</startupErr>
+    <bundledJreErr>Java Runtime Environment is missing or corrupted.</bundledJreErr>
+    <jreVersionErr>Java runtime environment version %1 or later is required.</jreVersionErr>
+    <launcherErr>Java Runtime Environment is not found or corrupted.</launcherErr>
+    <instanceAlreadyExistsMsg>An application instance is already running.</instanceAlreadyExistsMsg>
+  </messages>
+</launch4jConfig>
