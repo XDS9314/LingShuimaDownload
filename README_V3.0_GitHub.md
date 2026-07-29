@@ -1,6 +1,6 @@
 # 灵枢 IMA 智能下载器 V3.0
 
-> 腾讯 IMA 知识库搜索、浏览与批量下载工具 | Java Swing 桌面应用
+> IMA 知识库搜索、浏览与批量下载工具 | Java Swing 桌面应用
 
 <p align="center">
   <img src="灵枢ima智能下载器v3.0-源文件/icon/灵枢IMA下载器_Logo_HD.png" width="200" alt="Logo">
@@ -72,7 +72,7 @@ start.bat
 |------|------|
 | 操作系统 | Windows 7 / 8 / 10 / 11 |
 | Java | 8 或更高版本（推荐 11+） |
-| 网络 | 需能访问 `ima.qq.com` |
+| 网络 | 需能访问 `ima.**.com` |
 
 ## 使用指南
 
@@ -87,7 +87,7 @@ start.bat
 | 类型 | 格式 | 是否需要登录 | 说明 |
 |------|------|:---:|------|
 | 知识库 ID | 纯数字（10-25 位） | 否 | 获取整个知识库文件列表，批量下载 |
-| 分享链接 | `https://ima.qq.com/s/xxxxx` | 是 | 自动提取分享 ID 下载单文件 |
+| 分享链接 | `https://ima.**.com/s/xxxxx` | 是 | 自动提取分享 ID 下载单文件 |
 | 分享 ID | 64 位十六进制 | 是 | 需登录态 Cookie，当前版本暂不可用 |
 
 ### 文件类型标识
@@ -99,26 +99,6 @@ start.bat
 | 图片 | 紫色 | 视频 | 粉色 |
 | 音频 | 黄色 | 压缩包 | 棕色 |
 | 代码 | 青色 | 文件夹 | 棕色边框 |
-
-## 配置
-
-配置文件位于 `config/app.properties`：
-
-```properties
-# API 配置
-api.base.url=https://ima.qq.com/cgi-bin
-api.timeout=30000
-api.retry.count=3
-
-# 下载配置
-download.dir=./downloads
-download.thread=20
-download.retry.count=2
-download.fast.mode=true
-
-# UI 配置
-ui.log.max.lines=1000
-ui.progress.refresh=1000
 ```
 
 ## 项目结构
